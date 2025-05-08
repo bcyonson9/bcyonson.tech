@@ -1,0 +1,105 @@
+#about {
+    padding: 60px 0;
+    background-image: url('images/room3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ff4d00; 
+    text-transform: uppercase;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #ccc;
+  }
+  
+  
+  .card-body {
+    text-align: center;
+  }
+  
+  .card-body .display-4 {
+    font-size: 3.5rem; 
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .card-text {
+    font-size: 1.2rem; 
+    color: #ccc;
+  }
+  
+
+  .text-primary {
+    color: #ff4d00 !important;
+  }
+  
+
+  footer {
+    text-align: center;
+    background-color: #111;
+    color: #aaa;
+    padding: 20px;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .container {
+      text-align: center;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+  
+    .section-title {
+      font-size: 2.5rem; 
+    }
+  
+    .row {
+      text-align: center;
+    }
+  
+    .col-md-4 {
+      margin-bottom: 20px;
+    }
+  }
+  
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url('images/room3.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    color: #fff;
+  }
+  
+  
+  .container {
+    padding: 60px 5%;
+    min-height: 100vh; 
+  }
+  
